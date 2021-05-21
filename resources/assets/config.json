@@ -16,5 +16,8 @@
     "app/**/*.php",
     "config/**/*.php",
     "resources/views/**/*.php"
+  ],
+  "app": [
+    "./scripts/app.js"
   ]
 }
