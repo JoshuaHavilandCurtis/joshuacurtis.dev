@@ -31,14 +31,16 @@ get_header();
         <div id="middle" class="animated slideInDown" style="animation-delay:2.0s;">
             <h1>Joshua Curtis.</h1>
             <h2>Software Developer / Life Long Student / Human</h2>
+
             <div id="menu">
                 <a onclick="showabout()">about</a>
                 <a onclick="showwork()">work</a>
                 <a onclick="showcontact()">contact</a>
             </div>
+
             <table>
                     <tr>
-                        <td class="animated zoomIn" style="animation-delay:2.8s;"><a href="http://myportfolio.test/wp-content/uploads/2021/08/Joshua-Curtis.pdf" target="_blank" class="btn_one">My Resume</a></td>
+                        <td class="animated zoomIn" style="animation-delay:2.8s;"><a href="https://joshuacurtis.dev/wp-content/uploads/2021/08/Joshua-Curtis.pdf" target="_blank" class="btn_one">My Resume</a></td>
                     </tr>
             </table>
         </div>
@@ -52,7 +54,6 @@ get_header();
 			}
 		} else {}
         ?>
-        
 
         <?php
 		if ( have_posts() ) {
