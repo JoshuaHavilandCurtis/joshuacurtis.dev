@@ -1,0 +1,603 @@
+.skills {
+    padding: 10px;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .skill {
+    width: 100%;
+    margin: 10px 0;
+  }
+  
+  .title {
+    color: #fff;
+    font-weight: 700;
+  }
+  
+  .progress-bar {
+    background: #404040;
+    min-width: 300px;
+    border-radius: 3px;
+    width: 100%;
+    height: 15px;
+    margin-top: 5px;
+  /*   overflow: hidden; */
+  }
+  
+  .progress {
+  /*   width: 0; */
+  }
+  
+  #html .progress {
+    max-width: 90%;
+    height: 100%;
+    background: #fff;
+    border-radius: 3px;
+    position: relative;
+    animation: 1s ease 0s 1 loadBars; 
+  }
+  
+  #html .progress::after {
+    content: "90%";
+    color: black;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    height: 15px;
+    width: 30px;
+    background: #fff;
+    position: absolute;
+    padding: 2px 3px;
+    border-radius: 4px;
+    right: -18px;
+    top: -30px;
+  }
+  
+  #html .progress::before {
+    content: "";
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    right: -5px;
+    top: -12px;  
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid #fff;
+  }
+  
+  #css .progress {
+    max-width: 70%;
+    height: 100%;
+    background: #fff;
+    position: relative;
+    animation: 1s ease 0s 1 loadBars; 
+  }
+  
+  #css .progress::after {
+    content: "70%";
+    color: black;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    height: 15px;
+    width: 30px;
+    background: #fff;
+    position: absolute;
+    padding: 2px 3px;
+    border-radius: 4px;
+    right: -18px;
+    top: -30px;
+  }
+  
+  #css .progress::before {
+    content: "";
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    right: -5px;
+    top: -12px;  
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid #fff;
+  }
+  
+  #js .progress {
+    max-width: 60%;
+    height: 100%;
+    background: white;
+    position: relative;
+    animation: 1s ease 0s 1 loadBars; 
+  }
+  
+  #js .progress::after {
+    content: "60%";
+    font-size: 12px;
+    color: black;
+    line-height: 14px;
+    text-align: center;
+    height: 15px;
+    width: 30px;
+    background: #fff;
+    position: absolute;
+    padding: 2px 3px;
+    border-radius: 4px;
+    right: -18px;
+    top: -30px;
+  }
+  
+  #js .progress::before {
+    content: "";
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    right: -5px;
+    top: -12px;  
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid #fff;
+  }
+
+
+  #jquery .progress {
+    max-width: 60%;
+    height: 100%;
+    background: white;
+    position: relative;
+    animation: 1s ease 0s 1 loadBars; 
+  }
+  
+  #jquery .progress::after {
+    content: "60%";
+    font-size: 12px;
+    color: black;
+    line-height: 14px;
+    text-align: center;
+    height: 15px;
+    width: 30px;
+    background: #fff;
+    position: absolute;
+    padding: 2px 3px;
+    border-radius: 4px;
+    right: -18px;
+    top: -30px;
+  }
+  
+  #jquery .progress::before {
+    content: "";
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    right: -5px;
+    top: -12px;  
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid #fff;
+  }
+
+
+
+  #wordpress .progress {
+    max-width: 85%;
+    height: 100%;
+    background: white;
+    position: relative;
+    animation: 1s ease 0s 1 loadBars; 
+  }
+  
+  #wordpress .progress::after {
+    content: "85%";
+    font-size: 12px;
+    color: black;
+    line-height: 14px;
+    text-align: center;
+    height: 15px;
+    width: 30px;
+    background: #fff;
+    position: absolute;
+    padding: 2px 3px;
+    border-radius: 4px;
+    right: -18px;
+    top: -30px;
+  }
+  
+  #wordpress .progress::before {
+    content: "";
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    right: -5px;
+    top: -12px;  
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid #fff;
+  }
+
+
+  #php .progress {
+    max-width: 40%;
+    height: 100%;
+    background: white;
+    position: relative;
+    animation: 1s ease 0s 1 loadBars; 
+  }
+  
+  #php .progress::after {
+    content: "40%";
+    font-size: 12px;
+    color: black;
+    line-height: 14px;
+    text-align: center;
+    height: 15px;
+    width: 30px;
+    background: #fff;
+    position: absolute;
+    padding: 2px 3px;
+    border-radius: 4px;
+    right: -18px;
+    top: -30px;
+  }
+  
+  #php .progress::before {
+    content: "";
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    right: -5px;
+    top: -12px;  
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid #fff;
+  }
+
+
+
+  #scss .progress {
+    max-width: 70%;
+    height: 100%;
+    background: white;
+    position: relative;
+    animation: 1s ease 0s 1 loadBars; 
+  }
+  
+  #scss .progress::after {
+    content: "70%";
+    font-size: 12px;
+    color: black;
+    line-height: 14px;
+    text-align: center;
+    height: 15px;
+    width: 30px;
+    background: #fff;
+    position: absolute;
+    padding: 2px 3px;
+    border-radius: 4px;
+    right: -18px;
+    top: -30px;
+  }
+  
+  #scss .progress::before {
+    content: "";
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    right: -5px;
+    top: -12px;  
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid #fff;
+  }
+
+
+  #mysql .progress {
+    max-width: 60%;
+    height: 100%;
+    background: white;
+    position: relative;
+    animation: 1s ease 0s 1 loadBars; 
+  }
+  
+  #mysql .progress::after {
+    content: "60%";
+    font-size: 12px;
+    color: black;
+    line-height: 14px;
+    text-align: center;
+    height: 15px;
+    width: 30px;
+    background: #fff;
+    position: absolute;
+    padding: 2px 3px;
+    border-radius: 4px;
+    right: -18px;
+    top: -30px;
+  }
+  
+  #mysql .progress::before {
+    content: "";
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    right: -5px;
+    top: -12px;  
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid #fff;
+  }
+
+
+  #ui .progress {
+    max-width: 99%;
+    height: 100%;
+    background: white;
+    position: relative;
+    animation: 1s ease 0s 1 loadBars; 
+  }
+  
+  #ui .progress::after {
+    content: "99%";
+    font-size: 12px;
+    color: black;
+    line-height: 14px;
+    text-align: center;
+    height: 15px;
+    width: 30px;
+    background: #fff;
+    position: absolute;
+    padding: 2px 3px;
+    border-radius: 4px;
+    right: -18px;
+    top: -30px;
+  }
+  
+  #ui .progress::before {
+    content: "";
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    right: -5px;
+    top: -12px;  
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid #fff;
+  }
+
+
+
+  #version .progress {
+    max-width: 80%;
+    height: 100%;
+    background: white;
+    position: relative;
+    animation: 1s ease 0s 1 loadBars; 
+  }
+  
+  #version .progress::after {
+    content: "80%";
+    font-size: 12px;
+    color: black;
+    line-height: 14px;
+    text-align: center;
+    height: 15px;
+    width: 30px;
+    background: #fff;
+    position: absolute;
+    padding: 2px 3px;
+    border-radius: 4px;
+    right: -18px;
+    top: -30px;
+  }
+  
+  #version .progress::before {
+    content: "";
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    right: -5px;
+    top: -12px;  
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid #fff;
+  }
+  
+
+
+  #acf .progress {
+    max-width: 92%;
+    height: 100%;
+    background: white;
+    position: relative;
+    animation: 1s ease 0s 1 loadBars; 
+  }
+  
+  #acf .progress::after {
+    content: "92%";
+    font-size: 12px;
+    color: black;
+    line-height: 14px;
+    text-align: center;
+    height: 15px;
+    width: 30px;
+    background: #fff;
+    position: absolute;
+    padding: 2px 3px;
+    border-radius: 4px;
+    right: -18px;
+    top: -30px;
+  }
+  
+  #acf .progress::before {
+    content: "";
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    right: -5px;
+    top: -12px;  
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid #fff;
+  }
+
+
+
+  #node .progress {
+    max-width: 51%;
+    height: 100%;
+    background: white;
+    position: relative;
+    animation: 1s ease 0s 1 loadBars; 
+  }
+  
+  #node .progress::after {
+    content: "51%";
+    font-size: 12px;
+    color: black;
+    line-height: 14px;
+    text-align: center;
+    height: 15px;
+    width: 30px;
+    background: #fff;
+    position: absolute;
+    padding: 2px 3px;
+    border-radius: 4px;
+    right: -18px;
+    top: -30px;
+  }
+  
+  #node .progress::before {
+    content: "";
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    right: -5px;
+    top: -12px;  
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid #fff;
+  }
+
+
+  #adobe .progress {
+    max-width: 91%;
+    height: 100%;
+    background: white;
+    position: relative;
+    animation: 1s ease 0s 1 loadBars; 
+  }
+  
+  #adobe .progress::after {
+    content: "91%";
+    font-size: 12px;
+    color: black;
+    line-height: 14px;
+    text-align: center;
+    height: 15px;
+    width: 30px;
+    background: #fff;
+    position: absolute;
+    padding: 2px 3px;
+    border-radius: 4px;
+    right: -18px;
+    top: -30px;
+  }
+  
+  #adobe .progress::before {
+    content: "";
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    right: -5px;
+    top: -12px;  
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid #fff;
+  }
+
+
+
+  #bootstrap .progress {
+    max-width: 100%;
+    height: 100%;
+    background: white;
+    position: relative;
+    animation: 1s ease 0s 1 loadBars; 
+  }
+  
+  #bootstrap .progress::after {
+    content: "100%";
+    font-size: 12px;
+    color: black;
+    line-height: 14px;
+    text-align: center;
+    height: 15px;
+    width: 30px;
+    background: #fff;
+    position: absolute;
+    padding: 2px 3px;
+    border-radius: 4px;
+    right: -18px;
+    top: -30px;
+  }
+  
+  #bootstrap .progress::before {
+    content: "";
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    right: -5px;
+    top: -12px;  
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid #fff;
+  }
+
+
+
+  #tailwind .progress {
+    max-width: 80%;
+    height: 100%;
+    background: white;
+    position: relative;
+    animation: 1s ease 0s 1 loadBars; 
+  }
+  
+  #tailwind .progress::after {
+    content: "80%";
+    font-size: 12px;
+    color: black;
+    line-height: 14px;
+    text-align: center;
+    height: 15px;
+    width: 30px;
+    background: #fff;
+    position: absolute;
+    padding: 2px 3px;
+    border-radius: 4px;
+    right: -18px;
+    top: -30px;
+  }
+  
+  #tailwind .progress::before {
+    content: "";
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    right: -5px;
+    top: -12px;  
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid #fff;
+  }
+
+
+  @keyframes loadBars{
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 100%;
+    }
+    
+  }
