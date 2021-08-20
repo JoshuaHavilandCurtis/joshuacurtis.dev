@@ -19,7 +19,7 @@ body {
     width: 100vw;
     height: 100vh;
     position: fixed;
-    background:rgb(255, 50, 50);
+    background:rgb(251, 23, 117);
     z-index: 999;
     display: flex;
     justify-content: center;
@@ -31,7 +31,7 @@ body {
     width:50px;
     height:50px;
     border:12px solid #fff;
-    border-bottom:12px solid rgb(255, 50, 50);
+    border-bottom:12px solid rgb(251, 23, 117);
     border-radius:50%;
     margin:0;
 }
@@ -85,10 +85,10 @@ body {
     display:inline-block;
 }
 .box1 {
-    background:rgb(255, 50, 50);
+    background:rgb(251, 23, 117);
 }
 .box2 {
-    background:rgb(255, 50, 50);
+    background:rgb(251, 23, 117);
     margin-left:-5px;
 }
 #menu {
@@ -117,7 +117,7 @@ body {
     padding-bottom:10vh;
 }
 #middle h1 {
-    color:rgb(255, 50, 50);
+    color:rgb(251, 23, 117);
     font-size:70px;
     text-decoration:underline;
 }
@@ -178,15 +178,15 @@ body {
     border-radius:100px 100px 0px 0px;
 }
 #about:hover {
-    background:rgba(255,50,50,0.9);
+    background:rgb(251, 23, 117);
     cursor:pointer;
 }
 #work:hover {
-    background:rgba(255,50,50,0.9);
+    background:rgb(251, 23, 117);
     cursor:pointer;
 }
 #contact:hover {
-    background:rgba(255,50,50,0.9);
+    background:rgb(251, 23, 117);
     cursor:pointer;
 }
 #middle table {
@@ -206,13 +206,13 @@ body {
 }
 .social:hover { 
     cursor: pointer;
-    color:rgb(255, 50, 50);
+    color:rgb(251, 23, 117);
 }
 .container {
     width:90vw;
     height:90vh;
     padding:5vh 5vw;
-    background:rgb(255, 50, 50);
+    background:rgb(251, 23, 117);
     color:#fff;
     z-index:9;
     position:fixed;
@@ -266,13 +266,13 @@ body {
 }
 .btn_one:hover {
     cursor:pointer;
-    color:rgb(255, 50, 50);
+    color:rgb(251, 23, 117);
     background:#fff;
 }
 .btn_two {
     font-size:18px;
     font-family: 'Josefin Sans', sans-serif;
-    color:rgb(255, 50, 50);
+    color:rgb(251, 23, 117);
     background:#fff;
     border:3px solid #fff;
     padding:8px 40px;
@@ -336,7 +336,7 @@ body {
     font-weight:bold;
 }
 #footer a {
-    color:rgb(255, 50, 50) ;
+    color:rgb(251, 23, 117);
 }
 #particles-js {
     position:fixed;
@@ -351,14 +351,14 @@ body {
     background: #fff; 
 }
 ::-webkit-scrollbar-thumb {
-    background: rgb(255, 50, 50); 
+    background: rgb(251, 23, 117);
 }
 ::-webkit-scrollbar-thumb:hover {
-    background: rgba(255, 50, 50,0.8); 
+    background: rgb(251, 23, 117);
 }
 ::selection {
 	color: #fff;
-	background: rgb(255, 50, 50);
+	background: rgb(251, 23, 117);
 }
 
 @media (max-width: 800px){ 
