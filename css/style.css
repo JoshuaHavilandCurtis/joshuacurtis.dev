@@ -209,8 +209,8 @@ body {
     color:rgb(251, 23, 117);
 }
 .container {
-    width:90vw;
-    height:90vh;
+    width:100vw;
+    height:100vh;
     padding:5vh 5vw;
     background:rgb(251, 23, 117);
     color:#fff;
@@ -218,6 +218,7 @@ body {
     position:fixed;
     max-height:100vh;
     overflow-y:auto;
+    max-width: unset;
     display:none;
 }
 .container div {
