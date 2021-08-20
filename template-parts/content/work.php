@@ -11,7 +11,7 @@
     </div>
     <h1>My work.</h1>
     <section>
-        <div class="flex">
+        <div class="flex justify-between">
             <div class="self-center">
                 <img class="portfolio-img" src="<?php echo get_stylesheet_directory_uri(); ?>/images/dianebutterworth-portfolio.jpg">
             </div>
@@ -39,8 +39,8 @@
 
 
     <section>
-        <div class="flex">
-            <div class="self-center">
+        <div class="flex justify-between">
+            <div class="self-end">
                 <img class="portfolio-img" src="<?php echo get_stylesheet_directory_uri(); ?>/images/dianebutterworth-portfolio.jpg">
             </div>
             <div class="self-center">
@@ -67,14 +67,14 @@
     </section>
 
     <section>
-        <div class="flex">
-            <div>
-                <h2>Ball Roofing & Property</h2>   
-                <p>Ball Roofing & Property Limited specialise in roofing and building and are experts in high performance torch on felt systems.</p>
-                <p>They undertake all aspects of roofing. Warm and cold roof construction, new build, refurbishment and repair.</p>
-            </div>
+        <div class="flex justify-between">
             <div>
                 <img class="portfolio-img" src="<?php echo get_stylesheet_directory_uri(); ?>/images/ballroofing-portfolio.jpg">
+            </div>
+            <div>
+                <h2>Ball Roofing & Property</h2>   
+                <p>Ball Roofing & Property Limited specialise in roofing<br> and building and are experts in high performance torch on felt systems.</p>
+                <p>They undertake all aspects of roofing. Warm and cold roof construction, new build, refurbishment and repair.</p>
             </div>
         </div>
 

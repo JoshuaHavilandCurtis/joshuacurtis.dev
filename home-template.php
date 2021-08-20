@@ -26,7 +26,7 @@ get_header();
     </div>
     <a id="about" onclick="showabout()" class="animated fadeIn" style="animation-delay:2.2s;">about</a>
     <a id="work" onclick="showwork()" class="animated fadeIn" style="animation-delay:2.2s;">work</a>
-    <a id="contact" onclick="showcontact()" class="animated fadeIn" style="animation-delay:2.2s;">contact</a>
+    <!-- <a id="contact" onclick="showcontact()" class="animated fadeIn" style="animation-delay:2.2s;">contact</a> -->
 
         <div id="middle" class="animated slideInDown" style="animation-delay:2.0s;">
             <h1>Joshua Curtis.</h1>
@@ -35,7 +35,7 @@ get_header();
             <div id="menu">
                 <a onclick="showabout()">about</a>
                 <a onclick="showwork()">work</a>
-                <a onclick="showcontact()">contact</a>
+                <!-- <a onclick="showcontact()">contact</a> -->
             </div>
 
             <table>
