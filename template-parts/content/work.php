@@ -17,7 +17,7 @@
             </div>
             <div class="self-center">
                 <h2>Diane Butterworth</h2>
-                <h3>Built by <a class="link-work" href="https://chaptr.studio/" target="_blank">Chaptr</a></h3>
+                <h3>Designed and Built by <a class="link-work" href="https://chaptr.studio/" target="_blank">Chaptr</a></h3>
                 <p>Diane Butterworth Ltd is an office planning, design, and technical consultancy.</p>    
                 <p>From design to technical products to construction they can support your digital requirements.</p>
                 <p>Using the latest technology, We built Diane's website in WordPress (CMS) using Advanced Custom Fields, Sage Theme, Bedrock, PHP and Javascript.</p>
@@ -35,6 +35,35 @@
         </div>
 
         <a href="https://dianebutterworth.com/" target="_blank" class="btn_one preview">Preview</a>
+    </section>
+
+
+    <section>
+        <div class="flex">
+            <div class="self-center">
+                <img class="portfolio-img" src="<?php echo get_stylesheet_directory_uri(); ?>/images/dianebutterworth-portfolio.jpg">
+            </div>
+            <div class="self-center">
+                <h2>Southampton 2025</h2>
+                <h3>Designed and Built by <a class="link-work" href="https://southampton2025.co.uk/" target="_blank">Chaptr</a></h3>
+                <p>This is our Southampton</p>    
+                <p>Southampton is bidding to become the UK City of Culture 2025.</p>
+                <p>t’s time to shout about Southampton</p>
+            </div>
+        </div>
+
+        <div id="used">
+            <div><i class="fas fa-circle"></i>&nbsp;HTML5</div>
+            <div><i class="fas fa-circle"></i>&nbsp;CSS3 (SCSS)</div>
+            <div><i class="fas fa-circle"></i>&nbsp;Javascript</div>
+            <div><i class="fas fa-circle"></i>&nbsp;WordPress/ACF</div>
+            <div><i class="fas fa-circle"></i>&nbsp;PHP</div>
+            <div><i class="fas fa-circle"></i>&nbsp;Roots (Sage Theme)</div>
+            <div><i class="fas fa-circle"></i>&nbsp;Tailwind</div>
+            <div><i class="fas fa-circle"></i>&nbsp;Laravel Blade</div>
+        </div>
+
+        <a href="https://southampton2025.co.uk/" target="_blank" class="btn_one preview">Preview</a>
     </section>
 
     <section>
@@ -57,6 +86,30 @@
             <div><i class="fas fa-circle"></i>&nbsp;Bootstrap</div>
         </div>
 
-        <a href="https://dianebutterworth.com/" target="_blank" class="btn_one preview">Preview</a>
+        <a href="https://ballroofingandproperty.co.uk/" target="_blank" class="btn_one preview">Preview</a>
+    </section>
+
+
+    <section>
+        <div class="flex">
+            <div class="self-center">
+                <img class="portfolio-img" src="<?php echo get_stylesheet_directory_uri(); ?>/images/dianebutterworth-portfolio.jpg">
+            </div>
+            <div class="self-center">
+                <h2>Bridge 2 Aid</h2>
+                <h3>Designed and Built by <a class="link-work" href="https://dental-design.marketing/" target="_blank">Dental Design Marketing</a></h3>
+                <p>Bridge2Aid fights the causes of poverty in some of the poorest communities in the developing world.</p>    
+                <p>Bridge2Aid believes that everybody has the right to safe emergency dental care.</p>
+            </div>
+        </div>
+
+        <div id="used">
+            <div><i class="fas fa-circle"></i>&nbsp;HTML5</div>
+            <div><i class="fas fa-circle"></i>&nbsp;CSS3 (SCSS)</div>
+            <div><i class="fas fa-circle"></i>&nbsp;Javascript</div>
+            <div><i class="fas fa-circle"></i>&nbsp;WordPress</div>
+        </div>
+
+        <a href="https://bridge2aid.org/" target="_blank" class="btn_one preview">Preview</a>
     </section>
 </div>

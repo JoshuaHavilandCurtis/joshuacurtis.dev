@@ -78,7 +78,7 @@ get_header();
 
         <div id="footer">
             made on earth by a human <br>
-            <a href="">Joshua Curtis</a></a>
+            <a href="https://github.com/JoshuaHavilandCurtis" target="_blank">Joshua Curtis</a></a>
         </div>
 
 

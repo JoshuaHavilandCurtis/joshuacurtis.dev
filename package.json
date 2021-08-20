@@ -1,0 +1,9 @@
+{
+  "name": "Joshuacurtis",
+  "version": "1.0.0",
+  "description": "My bespoke theme",
+  "main": "index.js",
+  "repository": "https://github.com/JoshuaHavilandCurtis/joshuacurtis.dev.git",
+  "author": "Joshuacurtis",
+  "license": "MIT"
+}
