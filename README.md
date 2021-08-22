@@ -2,10 +2,19 @@
 
 # joshuacurtis.dev
 
-My Portfolio Website
+<h1>My Portfolio Website</h1>
+
+Installation & Setup; 
+
+1. Install WordPress
+2. Clone this theme in the themes folder
+3. Setup the database
+4. Log into WordPress and active theme as current 
+5. Create internal homepage in WordPresss and assign the page template; homepage. 
+
+<hr> 
 
 This is a relatively new portfolio, upcoming commits; 
-
 
 1. Tailwind & (Advanced Custom Fields) 
 2. Contact Form 
