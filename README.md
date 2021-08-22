@@ -13,7 +13,7 @@ This is a relatively new portfolio, upcoming commits;
 4. SCSS 
 5. HTML5 & CSS3 
 
-Next commit will be fully editable CMS Portfolio Page, allowing easy portfolio additions.
+Next commit will be a fully editable CMS Portfolio Page, allowing easy portfolio additions.
 
 <img width="875" alt="Screenshot 2021-08-22 at 12 21 24" src="https://user-images.githubusercontent.com/73693469/130353201-4865d591-72be-475f-adbc-38eba13c9b82.png">
 
