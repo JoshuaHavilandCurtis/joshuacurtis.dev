@@ -1,8 +1,7 @@
 # joshuacurtis.dev
 My Portfolio Website
 
-
-Things i'll be integrating, 
+This is a relatively new portfolio, upcoming commits; 
 
 Completely editable within the CMS (Advanced Custom Fields) 
 1. Tailwind 
