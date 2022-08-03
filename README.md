@@ -14,7 +14,5 @@
 6. GULP 
 7. Rewrite JQuery to ES6 Vanilla JS 
 
-<img width="875" alt="Screenshot 2021-08-22 at 12 21 24" src="https://user-images.githubusercontent.com/73693469/130353201-4865d591-72be-475f-adbc-38eba13c9b82.png">
-
 
 
