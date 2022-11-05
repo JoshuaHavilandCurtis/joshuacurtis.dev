@@ -4,7 +4,9 @@
 
 <h1>My Portfolio Website</h1>
 
-### To-do: 
+Rebuilding this portfolio in Vue: https://github.com/JoshuaHavilandCurtis/Portfolio-Vue
+
+### To-do: (CBA)
 
 1. Bootstrap 
 2. Contact Form (CF7 WordPress Plugin) 
